@@ -12,7 +12,11 @@ namespace BakMng.Controllers
         {
             return View();
         }
-
+        public ActionResult f1()
+        {
+            ViewBag.Message = "Your application f1 page.";
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
