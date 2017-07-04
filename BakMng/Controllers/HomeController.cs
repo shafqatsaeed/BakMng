@@ -12,6 +12,11 @@ namespace BakMng.Controllers
         {
             return View();
         }
+        public ActionResult Task55()
+        {
+            ViewBag.Message = "Your application Task55 page.";
+            return View();
+        }
         public ActionResult f1()
         {
             ViewBag.Message = "Your application f1 page.";
